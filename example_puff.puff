@@ -1,4 +1,4 @@
-; The info file tells the Fluff module about the project and
+; The .puff file tells the Fluff module about the project and
 ; what parts to expect and where to find them.
 
 ; Title of the project for display.

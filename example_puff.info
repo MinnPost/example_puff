@@ -7,7 +7,8 @@ title = "Example Puff"
 ; Description of the project.
 description = "An example puff to show how puffs work and for testing."
 
-; Version is arbitrary at this point.
+; Version is arbitrary at this point, but will help know if
+; the Puff needs updating.
 version = "1.0.0"
 
 ; Includes is an array of files to include.  This could maybe

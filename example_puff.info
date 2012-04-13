@@ -1,0 +1,25 @@
+; The info file tells the Fluff module about the project and
+; what parts to expect and where to find them.
+
+; Title of the project for display.
+title = "Example Puff"
+
+; Description of the project.
+description = "An example puff to show how puffs work and for testing."
+
+; Version is arbitrary at this point.
+version = "1.0.0"
+
+; Includes is an array of files to include.  This could maybe
+; refer to actual Drupal Libraries as well.  The main benefit
+; of this is to utilize relative paths and Drupals caching.
+includes[js][] = "libs/jquery/jquery.js"
+includes[js][] = "libs/testing/testing.js"
+includes[css][] = "libs/jquery/jquery.css"
+includes[css][] = "libs/testing/style.css"
+
+; Puffs are the embeddable parts.  They are usually in an HTML file
+; and noted by specific tags (these are just arbitrary strings).
+puffs[example_puff][file] = "index.html"
+puffs[example_puff][start_tag] = "<-- Embed Start -->"
+puffs[example_puff][end_tag] = "<-- Embed End -->"

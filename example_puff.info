@@ -21,6 +21,8 @@ includes[css][] = "libs/testing/style.css"
 
 ; Puffs are the embeddable parts.  They are usually in an HTML file
 ; and noted by specific tags (these are just arbitrary strings).
+puffs[example_puff][title] = "Example Puff Embed 1"
+puffs[example_puff][description] = "This is just an example of some embeddable code."
 puffs[example_puff][file] = "index.html"
-puffs[example_puff][start_tag] = "<-- Embed Start -->"
-puffs[example_puff][end_tag] = "<-- Embed End -->"
+puffs[example_puff][start_tag] = "<!-- Embed Start -->"
+puffs[example_puff][end_tag] = "<!-- Embed End -->"

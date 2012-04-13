@@ -1,0 +1,1 @@
+This is an example Puff project that works with the Drupal [Fluff module](https://github.com/MinnPost/fluff).
